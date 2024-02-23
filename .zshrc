@@ -122,6 +122,9 @@ export PATH="$HOME/.poetry/bin:$PATH"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Colima
+export DOCKER_HOST=unix://${HOME}/.colima/default/docker.sock
+
 # https://github.com/Robert-Steiner/macOS-nitrokey-guide/blob/master/README.md
 #unset SSH_AGENT_PID
 #if [ "${gnupg_SSH_AUTH_SOCK_by:-0}" -ne $$ ]; then
