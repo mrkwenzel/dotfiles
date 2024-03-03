@@ -9,7 +9,7 @@ fi
 export PATH="/opt/homebrew/bin:/opt/homebrew/opt:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/mwenzel/.oh-my-zsh"
+export ZSH="/Users/markus/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -113,7 +113,7 @@ PATH="/usr/local/opt/gnu-tar/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
 export PATH="/usr/local/opt/openjdk@8/bin:$PATH"
 export PATH="/usr/local/opt/gradle@6/bin:$PATH"
-export PATH="/Users/mwenzel/Library/Python/3.9/bin:$PATH"
+export PATH="/Users/markus/Library/Python/3.9/bin:$PATH"
 
 export PATH="$HOME/.poetry/bin:$PATH"
 
